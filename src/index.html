@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Vue playground</title>
+
+        <!-- <link rel="stylesheet" href="css/app.css" /> -->
+    </head>
+    <body>
+
+        <div id="app">
+
+          <form action="target.html">
+            <div>
+              <smart-tagz
+                input-placeholder="Select Countries ..."
+                autosuggest
+                editable
+                :on-changed="logChange"
+                :sources="sources"
+                :default-tags="['Switzerland']"
+                :allow-duplicates="false"
+                quick-delete
+                :max-tags="11"
+                :theme="{
+                  primary: '#1A5190',
+                  background: '#e5e5e5',
+                  tagTextColor: '#fff',
+                }"
+              />
+            </div>
+
+            <div>
+              <input type="submit" name="form-submitted" value="submit form">
+            </div>
+          </form>
+
+        </div>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>

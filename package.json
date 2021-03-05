@@ -1,0 +1,22 @@
+{
+  "name": "smart-tagz-demo",
+  "version": "0.0.1",
+  "description": "Just a demo project for a regression test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Niekto350",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.5",
+    "laravel-mix": "^6.0.10",
+    "postcss": "^8.2.4",
+    "vue-loader": "^16.1.2"
+  },
+  "dependencies": {
+    "vue": "^3.0.5",
+    "smart-tagz": "^0.2.0"
+  }
+}
